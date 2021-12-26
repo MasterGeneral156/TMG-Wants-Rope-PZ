@@ -1,0 +1,14 @@
+module tmgWantsRope
+{
+	imports
+	{
+		Base,
+	}
+	recipe Convert to Rope
+	{
+		Sheetrope=4,
+		Thread=5,
+		Result 		: Rope,
+		Time 		: 10.0,
+	}
+}
